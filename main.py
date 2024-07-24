@@ -2,9 +2,9 @@ import streamlit as st
 from openai import OpenAI
 import time
 from PIL import Image
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 client = OpenAI()
 assistant_id = "asst_oLFj6dtQciDJ0LUGvpBz8ttd"
